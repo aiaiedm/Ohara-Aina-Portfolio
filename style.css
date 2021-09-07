@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0; padding: 0;
+	list-style: none;
+	font-family: 'Noto Serif JP', serif;
+}
+
+.wrap{
+	max-width: 960px;
+	margin-left: auto; margin-right: auto;
+}
+
+body{
+	background-color: #ffffff;
+	position: relative;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*-----header-----*/
+
+.flame_top {
+	display: block;
+	position: fixed;
+	z-index: 100;
+	left: 0; top: 0;
+	width: 30vw;
+	height: auto;
+}
+
+.flame_bottom {
+	display: block;
+	position: fixed;
+	z-index: 100;
+	right: 0; bottom: 0;
+	width: 30vw;
+	height: auto;
+}
+
+nav{
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+	background-color: #ffffff;
+	box-shadow: 0 0 10px #cccccc;
+	position: fixed;
+	z-index: 99;
+}
+
+.nav_conteiner{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	float: right;
+}
+
+.trans_nav{
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+.trans_nav:hover{
+	transform: rotate(9deg);
+	transition-duration: 0.3s;
+}
+
+.nameROGO{
+	height: 100vh;
+	background-image: url("index_images/nameROGO.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*-----footer-----*/
+
+.footer_text{
+	position: fixed;
+	z-index: 101;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	text-align: center;
+	margin-left: auto; margin-right: auto;
+}
+
+
+
+/*-----main-----*/
+
+.title_size{
+	height: 70px;
+	float: left;
+}
+
+/*-----work-----*/
+
+#work{
+	display: flex;
+	height: 620px;
+	margin-bottom: 150px;
+	justify-content: space-between;
+}
+
+.work_icon{
+	width: 655px;
+	display: flex;
+	}
+
+.work_icon_left{
+	margin-right: 123px;
+	margin-top: 85px;
+}
+
+.icon_Web{
+	width: 256px; height: 248px;
+	background-image: url("index_images/MORE_buttom.png"),url("index_images/work_Web.jpg");
+	background-repeat: no-repeat,no-repeat;
+	background-position: left 48px top 205px,center;
+	margin-bottom: 40px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.icon_Web:hover{
+	transform: scale(1.2);
+	transition-duration: 0.5s;
+}
+
+.icon_Package{
+	width: 256px; height: 248px;
+	background-image: url("index_images/MORE_buttom.png"),url("index_images/work_Package.jpg");
+	background-repeat: no-repeat,no-repeat;
+	background-position: left 48px top 205px,center;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.icon_Package:hover{
+	transform: scale(1.2);
+	transition-duration: 0.5s;
+}
+
+.work_icon_right{
+	margin-top: 27px;
+}
+
+.icon_Graphic{
+	width: 256px; height: 248px;
+	background-image: url("index_images/MORE_buttom.png"),url("index_images/work_Graphic.jpg");
+	background-repeat: no-repeat,no-repeat;
+	background-position: left 48px top 205px,center;
+	margin-bottom: 40px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.icon_Graphic:hover{
+	transform: scale(1.2);
+	transition-duration: 0.5s;
+}
+
+.icon_Other{
+	width: 256px; height: 248px;
+	background-image: url("index_images/MORE_buttom.png"),url("index_images/Work_Other.jpg");
+	background-position: left 48px top 205px,center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.icon_Other:hover{
+	transform: scale(1.2);
+	transition-duration: 0.5s;
+}
+
+/*-----about-----*/
+
+
+#about{
+	height: 460px;
+	margin-top: 90px;
+	margin-bottom: 150px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #cccccc;
+	background-position: left center;
+	padding: 50px 30px;
+}
+
+.about_description{
+	width: 445px;
+}
+
+.about_description h2{
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+.about_description h3{
+	font-size: 32px;
+}
+
+.about_description h4{
+	margin-bottom: 46px;
+}
+
+.about_description p{
+	font-size: 16px;
+}
+
+/*-----contact-----*/
+
+#contact{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #cccccc;
+	background-position: right center;
+	padding: 50px 30px;
+}
+
+.contact_description{
+	width: 445px;
+}
+
+.contact_description h2{
+	font-size: 32px;
+	margin-bottom: 45px;
+}
+
+.contact_description p{
+	font-size: 16px;
+	margin-bottom: 80px;
+	width: 440px;
+}
+
+#AZD{
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+#AZD:hover{
+	opacity: 0.6;
+	transition-duration: 0.3s;
+}
+
+/*-----footer-----*/
