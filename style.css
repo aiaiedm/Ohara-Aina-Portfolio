@@ -30,7 +30,7 @@ body{
 	position: fixed;
 	z-index: 100;
 	left: 0; top: 0;
-	width: 30vw;
+	width: 20vw;
 	height: auto;
 }
 
@@ -39,14 +39,14 @@ body{
 	position: fixed;
 	z-index: 100;
 	right: 0; bottom: 0;
-	width: 30vw;
+	width: 20vw;
 	height: auto;
 }
 
 nav{
-	height: 100px;
+	height: 80px;
 	width: 100%;
-	line-height: 100px;
+	line-height: 80px;
 	background-color: #ffffff;
 	box-shadow: 0 0 10px #cccccc;
 	position: fixed;
@@ -74,7 +74,7 @@ nav{
 
 .nameROGO{
 	height: 100vh;
-	background-image: url("index_images/nameROGO.png");
+	background-image: url("index_images/OHARA AINA.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -83,14 +83,16 @@ nav{
 
 .footer_text{
 	position: fixed;
-	z-index: 101;
+	z-index: 99;
 	bottom: 0;
 	width: 100%;
-	height: 50px;
-	line-height: 50px;
-	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 10px;
 	text-align: center;
+	background-color: #FFFFFF;
 	margin-left: auto; margin-right: auto;
+	
 }
 
 
@@ -102,6 +104,12 @@ nav{
 	float: left;
 }
 
+.sub{
+	width: 95px;
+	margin-top: 55px;
+	font-size: 16px;
+}
+
 /*-----work-----*/
 
 #work{
@@ -109,23 +117,24 @@ nav{
 	height: 620px;
 	margin-bottom: 150px;
 	justify-content: space-between;
+	padding-left: 50px;
 }
 
 .work_icon{
 	width: 655px;
 	display: flex;
+	justify-content: flex-end;
 	}
 
 .work_icon_left{
-	margin-right: 123px;
+	margin-right: 50px;
 	margin-top: 85px;
 }
 
 .icon_Web{
 	width: 256px; height: 248px;
-	background-image: url("index_images/MORE_buttom.png"),url("index_images/work_Web.jpg");
-	background-repeat: no-repeat,no-repeat;
-	background-position: left 48px top 205px,center;
+	background-image: url("index_images/work_Web.jpg");
+	background-repeat: no-repeat;
 	margin-bottom: 40px;
 	cursor: pointer;
 	transition-duration: 0.5s;
@@ -138,9 +147,8 @@ nav{
 
 .icon_Package{
 	width: 256px; height: 248px;
-	background-image: url("index_images/MORE_buttom.png"),url("index_images/work_Package.jpg");
-	background-repeat: no-repeat,no-repeat;
-	background-position: left 48px top 205px,center;
+	background-image: url("index_images/work_Package.jpg");
+	background-repeat: no-repeat;
 	cursor: pointer;
 	transition-duration: 0.5s;
 }
@@ -156,9 +164,8 @@ nav{
 
 .icon_Graphic{
 	width: 256px; height: 248px;
-	background-image: url("index_images/MORE_buttom.png"),url("index_images/work_Graphic.jpg");
-	background-repeat: no-repeat,no-repeat;
-	background-position: left 48px top 205px,center;
+	background-image: url("index_images/work_Graphic.jpg");
+	background-repeat: no-repeat;
 	margin-bottom: 40px;
 	cursor: pointer;
 	transition-duration: 0.5s;
@@ -171,8 +178,7 @@ nav{
 
 .icon_Other{
 	width: 256px; height: 248px;
-	background-image: url("index_images/MORE_buttom.png"),url("index_images/Work_Other.jpg");
-	background-position: left 48px top 205px,center;
+	background-image: url("index_images/Work_Other.jpg");
 	background-repeat: no-repeat;
 	cursor: pointer;
 	transition-duration: 0.5s;
@@ -187,14 +193,12 @@ nav{
 
 
 #about{
-	height: 460px;
 	margin-top: 90px;
 	margin-bottom: 150px;
 	display: flex;
 	justify-content: space-between;
 	background-color: #cccccc;
-	background-position: left center;
-	padding: 50px 30px;
+	padding: 50px;
 }
 
 .about_description{
@@ -221,12 +225,11 @@ nav{
 /*-----contact-----*/
 
 #contact{
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	display: flex;
 	justify-content: space-between;
 	background-color: #cccccc;
-	background-position: right center;
-	padding: 50px 30px;
+	padding: 50px;
 }
 
 .contact_description{
