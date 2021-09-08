@@ -3,14 +3,15 @@
 <head>
 <meta charset="utf-8">
 <title>Home | OHARA AINA Portfolio</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style_test.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet"></head>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
+</head>
 
 <body>
 
-	<img src="index_images/ornament_top.png" alt="" class="flame_top">
-	<img src="index_images/ornament_bottom.png" alt="" class="flame_bottom">
+	<img src="index_images/decoration_left.png" alt="flame" class="flame_top">
+	<img src="index_images/decoration_right.png" alt="flame" class="flame_bottom">
 
 <header>
 	
@@ -33,7 +34,11 @@
 					</a>
 				</div>
 			</div>
+	<!-----ハンバーガー----->
+	<div class="openbtn"><span></span><span></span><span></span></div>
+
 		</nav>
+	
 
 	<div class="wrap">
 	<div class="nameROGO"></div>
@@ -45,10 +50,16 @@
 
 <main>	
 	
-	
 	<div class="wrap">
 	<div id="work">
-		<img class="title_size clearfix" src="index_images/title_Work.png" alt="Work">
+		<div>
+			<img class="title_size clearfix" src="index_images/Work_title.png" alt="Work">
+			<p class="sub">
+			<br><br>
+			Works are poted.<br>
+			I especially like web production.
+			</p>
+		</div>
 		<div class="work_icon">
 			<div class="work_icon_left">
 				<a href="work.html">
@@ -75,7 +86,14 @@
 	
 	<div class="wrap">
 		<div id="about">
-			<img class="title_size" src="index_images/title_About.png" alt="About">
+			<div>
+				<img class="title_size" src="index_images/About_title.png" alt="About">
+				<p class="sub">
+				<br><br>
+				Let me introduce myself.<br>
+				I hope we can get along well.
+				</p>
+			</div>
 			<div class="about_description">
 				<h2>あいち造形デザイン専門学校<br>
 					デザイン学科 企画デザインコース ２年</h2>
@@ -91,6 +109,13 @@
 	
 	<div class="wrap">
 		<div id="contact">
+			<div>
+				<img class="title_size" src="index_images/Contact_title.png" alt="Contact">
+				<p class="sub">
+				<br><br>
+				For future infomation please contact us here.
+				</p>
+			</div>
 			<div class="contact_description">
 				<h2>お問い合わせについて</h2>
 				<p>ご意見・ご相談などありましたらお手数ですが、学校を経由
@@ -104,13 +129,14 @@
 				</a>
 				</div>
 			</div>
-			<img class="title_size" src="index_images/title_Contact.png" alt="Contact">
-		</div>
+	  </div>
 	</div>
 
 </main>
 
-
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--自作のJS-->
+<script src="js/5-1-7.js"></script>
 
 </body>
 </html>
