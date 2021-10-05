@@ -112,7 +112,7 @@ nav{
 
 /*-----work-----*/
 
-#work{
+.work{
 	display: flex;
 	height: 620px;
 	margin-bottom: 150px;
@@ -189,10 +189,13 @@ nav{
 	transition-duration: 0.5s;
 }
 
+#work,#about,#contact{
+	height: 90px;
+}
+
 /*-----about-----*/
 
-
-#about{
+.about{
 	margin-top: 90px;
 	margin-bottom: 150px;
 	display: flex;
@@ -224,7 +227,7 @@ nav{
 
 /*-----contact-----*/
 
-#contact{
+.contact{
 	margin-bottom: 40px;
 	display: flex;
 	justify-content: space-between;
