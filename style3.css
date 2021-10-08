@@ -134,6 +134,18 @@ p{
 
 /*-----Web-----*/
 
+.work_image{
+	width: 960px;
+}
+
+.concept a{
+	color: #b01e29;
+	text-decoration: none;
+}
+
+.concept a:hover{
+	opacity: 0.5;
+}
 
 /*-----Graphic-----*/
 
